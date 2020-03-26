@@ -6,7 +6,8 @@ import { createApolloClient }      from "./createApolloClient"
 
 import Root                        from "./app/components/Root"
 
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
 
 
 const client = createApolloClient()
